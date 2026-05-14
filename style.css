@@ -1,0 +1,64 @@
+/*Universal Styles*/
+html{
+    font-family:  Arial, sans-serif
+}
+
+/*Header*/
+header{
+    background-color: white;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+/*Header Logo*/
+.logo{
+    height: 50%;
+    margin-left: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo h2{
+    font-size: 2rem;
+    margin: 0.25rem;
+    text-transform: uppercase;
+}
+.logo strong{
+    color: grey;
+    font-weight: 400;
+}
+
+.logo img{
+    height: 130%;
+}
+
+/*Header Nav*/
+nav{
+    display: inline-flex;
+    gap: 16px;
+    margin-right: 1.5rem;
+    border: 1px solid pink;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/*Banner*/
+
+/*Information*/
+
+/*Courses*/
+
+/*Thesis*/
+
+/*Footer*/
