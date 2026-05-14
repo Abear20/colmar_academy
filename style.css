@@ -1,6 +1,9 @@
 /*Universal Styles*/
 html{
-    font-family:  Arial, sans-serif
+    font-family:  Arial, sans-serif;
+
+    --custom-grey: rgb(214, 214, 217);
+    --dark-grey: rgb(58, 58, 61);
 }
 
 /*Header*/
@@ -31,7 +34,7 @@ header{
     text-transform: uppercase;
 }
 .logo strong{
-    color: grey;
+    color: var(--custom-grey);
     font-weight: 400;
 }
 
@@ -54,6 +57,38 @@ nav a{
 }
 
 /*Banner*/
+.banner{
+    position: relative;
+    top: 64px;
+    padding: 0;
+    background-color: var(--custom-grey);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.banner img{
+    width: 60%;
+    height: auto;
+    margin: 2rem 1.5rem;
+
+}
+
+.banner .content{
+    color: var(--dark-grey);
+    width: 30%;
+}
+
+.banner .content .btn{
+    background-color: var(--dark-grey);
+    padding: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
 
 /*Information*/
 
