@@ -301,6 +301,36 @@ nav a img{
     padding: 0;
 }
 
+@media only screen and (max-width: 720px){
+    .featured-courses{
+        padding: 2rem 1rem;
+        background-color: white;
+    }
+
+    .courses{
+        display: block;
+    }
+
+    .featured-courses .card{
+        background-color: var(--light-grey);
+        margin: 0.5rem 0;
+    }
+
+    .card img, .card p{
+        display: none;
+    }
+
+    .card h3{
+        font-size: 1.4rem;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .card .content{
+        margin: 0;
+    }
+}
+
 /*Thesis*/
  .thesis h2{
     font-size: 2rem;
