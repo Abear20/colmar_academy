@@ -58,6 +58,34 @@ nav a{
     cursor: pointer;
 }
 
+nav a img{
+    display: none;
+}
+
+@media only screen and (max-width: 720px) {
+    header{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .logo h2 {
+        display: none;
+    }
+
+    nav a p,
+    nav .companies {
+        display: none;
+    }
+    nav a img{
+        display: block;
+    }
+    nav{
+        justify-content: space-around;
+    }
+    nav a img {
+        height: 110%;
+    }
+}
 /*Banner*/
 .banner{
     position: relative;
