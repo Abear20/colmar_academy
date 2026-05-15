@@ -121,6 +121,27 @@ nav a img{
     color: white;
 }
 
+@media only screen and (max-width: 720px){
+    .banner{
+        flex-direction: column;
+    }
+    .banner img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .banner .content{
+        width: 90%;
+        padding: 2rem 1rem;
+        margin: 0;
+    }
+
+    .banner .content h1{
+        margin: 0;
+    }
+}
+
 /*Information*/
 .information{
     display: flex;
