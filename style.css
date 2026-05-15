@@ -392,6 +392,18 @@ nav a img{
     color: var(--medium-grey);
  }
 
+@media only screen and (max-width: 720px){
+    .thesis-vid .vid-description,
+    .thesis-content .featured{
+        display: none;
+    }
+
+    .thesis-vid{
+        width: 100%;
+        padding: 0;
+    }
+}
+
 /*Footer*/
 footer{
     border-top: 1px solid var(--light-grey);
@@ -411,4 +423,16 @@ footer .terms{
 .terms a{
     text-decoration: none;
     color: var(--medium-grey);
+}
+
+@media only screen and (max-width: 720px){
+    footer .terms{
+        display: none;
+    }
+
+    footer{
+        padding: 2.5rem 0 1rem 1rem;
+    }
+
+    
 }
