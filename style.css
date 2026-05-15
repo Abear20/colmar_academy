@@ -168,6 +168,105 @@ nav a{
 
 /*Courses*/
 
+.featured-courses{
+    background-color: rgb(237, 235, 235);
+    justify-items: center;
+    padding: 2rem 4.5rem;
+}
+
+.featured-courses h2 {
+    font-size: 2rem;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+
+    width: 100%;
+}
+
+.card{
+    background-color: white;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card .content{
+    margin: 1rem 1rem 1.5rem 1rem;
+}
+
+.card p{
+    margin: 0;
+}
+.card .title{
+    margin: 0.5rem 0;
+    padding: 0;
+}
+
 /*Thesis*/
+ .thesis h2{
+    font-size: 2rem;
+    margin: 2rem;
+    text-align: center;
+ }
+
+ .thesis-content{
+    display: flex;
+ }
+
+ /*Thesis Video*/
+ .thesis-vid{
+    width: 60%;
+    padding: 0 1.5rem
+ }
+
+.thesis-vid video{
+    width: 100%;
+    height: auto;
+}
+
+.thesis-vid h4{
+    font-size: 1.25rem;
+    margin: 2rem 0 .5rem 0;
+}
+
+.thesis-vid .quotation{
+    color: var(--medium-grey);
+    margin-bottom: 2rem;
+}
+
+ /*Thesis Cards*/
+ .featured{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .thesis-card{
+    display: flex;
+    align-items: center;
+ }
+
+.thesis-card:hover{
+    background-color: var(--light-grey);
+}
+
+.thesis-card img{
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+    
+ }
+
+ .thesis-card h3{
+    font-size: 1.40rem;
+ }
+ .thesis-card p{
+    color: var(--medium-grey);
+ }
 
 /*Footer*/
